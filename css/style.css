@@ -1,0 +1,644 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+/* HOLD CONTAIN */
+.container{
+    display: block;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    margin-top: -15px;
+    width: 375px;
+    height: 812px;
+    /* background-color: aqua; */
+}
+
+/* -TITLE- */
+.container .header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 375px;
+    height: 80px;
+    border-radius: 15px 0px 0px 15px;
+    background-color: burlywood;
+}
+.header img{
+  margin-top: 15px;
+  margin-left: -115px;
+  height: 65px;
+  width: auto;
+  float: left;
+}
+.header h1{
+    font-family: Battambang;
+    color: white;
+    font-size: 25px;
+    font-weight:1200;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+
+span{
+  font-family: Arial;
+  font-size: 22px;
+}
+
+/* --BUTTON ONE-- */
+.container .button_one{
+    width: 375px;
+    height: 77px;
+    padding-top: 10px;
+    margin-top: 10px;
+    /* background-color: deepskyblue; */
+}
+
+/* --BUTTON TWO-- */
+.container .button_two{
+    width: 375px;
+    height: 77px;
+    padding-top: 10px;
+    margin-top: 10px;
+    /* background-color: deepskyblue; */
+}
+
+/* --BUTTON THREE-- */
+.container .button_three{
+    width: 375px;
+    height: 77px;
+    padding-top: 10px;
+    margin-top: 10px;
+    /* background-color: deepskyblue; */
+}
+
+/* --BUTTON FOURTH-- */
+.container .button_fourth{
+    width: 375px;
+    height: 77px;
+    padding-top: 10px;
+    margin-top: 10px;
+    /* background-color: deepskyblue; */
+}
+
+/* --BUTTON FIFTH-- */
+.container .button_fifth{
+    width: 375px;
+    height: 77px;
+    padding-top: 10px;
+    margin-top: 10px;
+    /* background-color: deepskyblue; */
+}
+
+/* --BUTTON six-- */
+.container .button_six{
+  width: 375px;
+  height: 77px;
+  padding-top: 10px;
+  margin-top: 10px;
+  /* background-color: deepskyblue; */
+}
+
+/* --BUTTON SEVEN-- */
+.container .button_seven{
+  width: 375px;
+  height: 77px;
+  padding-top: 10px;
+  margin-top: 10px;
+  /* background-color: deepskyblue; */
+}
+
+/* --BOTTOM BAR-- */
+.container .bottom{
+    width: 375px;
+    height: 60px;
+    padding-top: 4px;
+    margin-top: 10px;
+    background-color:burlywood ;
+}
+.container .bottom h3{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+
+  /* --BUTTON ONE-- */
+  .button_one .switch1-holder {
+    display: flex;
+    width: 320px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, .7),
+          10px 10px 10px rgba(0, 0, 0, .2),
+          inset 8px 8px 15px rgba(255, 255, 255, .7),
+          inset 10px 10px 10px rgba(0, 0, 0, .2);
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    font-family: Battambang;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .button_one .switch1-label {
+    padding: 0 20px 0 10px
+  }
+  .button_one .switch1-label i {
+    margin-right: 5px;
+  }
+  .button_one .switch1-toggle {
+    height: 50px;
+  }
+  .button_one .switch1-toggle input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    z-index: -2;
+  }
+  .button_one .switch1-toggle input[type="checkbox"]+label {
+    position: relative;
+    display: inline-block;
+    width: 140px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 0;
+    cursor: pointer;
+    box-shadow: inset -8px -8px 15px rgba(255, 255, 255, .6),
+          inset 10px 10px 10px rgba(0, 0, 0, .25);
+  }
+  .button_one .switch1-toggle input[type="checkbox"]+label::before {
+    position: absolute;
+    content: 'OFF';
+    font-size: 13px;
+    text-align: center;
+    line-height: 25px;
+    top: 8px;
+    left: 8px;
+    width: 60px;
+    height: 28px;
+    padding-top: 7px;
+    border-radius: 20px;
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: -3px -3px 5px rgba(255, 255, 255, .5),
+          3px 3px 5px rgba(0, 0, 0, .25);
+    transition: .3s ease-in-out;
+  }
+  .button_one .switch1-toggle input[type="checkbox"]:checked+label::before {
+    left: 50%;
+    content: 'ON';
+    color: #fff;
+    font-size: 20px;
+    background-color: green;
+    box-shadow: -3px -3px 5px rgba(255, 255, 255, .5),
+          3px 3px 5px ;
+  }
+
+
+  /* --BUTTON TWO-- */
+  .button_two .switch2-holder {
+    display: flex;
+    width: 320px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, .7),
+          10px 10px 10px rgba(0, 0, 0, .2),
+          inset 8px 8px 15px rgba(255, 255, 255, .7),
+          inset 10px 10px 10px rgba(0, 0, 0, .2);
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    font-family: Battambang;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .button_two .switch2-label {
+    padding: 0 20px 0 10px
+  }
+  .button_two .switch2-label i {
+    margin-right: 5px;
+  }
+  .button_two .switch2-toggle {
+    height: 50px;
+  }
+  .button_two .switch2-toggle input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    z-index: -2;
+  }
+  .button_two .switch2-toggle input[type="checkbox"]+label {
+    position: relative;
+    display: inline-block;
+    width: 140px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 0;
+    cursor: pointer;
+    box-shadow: inset -8px -8px 15px rgba(255, 255, 255, .6),
+          inset 10px 10px 10px rgba(0, 0, 0, .25);
+  }
+  .button_two .switch2-toggle input[type="checkbox"]+label::before {
+    position: absolute;
+    content: 'OFF';
+    font-size: 13px;
+    text-align: center;
+    line-height: 25px;
+    top: 8px;
+    left: 8px;
+    width: 60px;
+    height: 28px;
+    padding-top: 7px;
+    border-radius: 20px;
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: -3px -3px 5px rgba(255, 255, 255, .5),
+          3px 3px 5px rgba(0, 0, 0, .25);
+    transition: .3s ease-in-out;
+  }
+  .button_two .switch2-toggle input[type="checkbox"]:checked+label::before {
+    left: 50%;
+    content: 'ON';
+    color: #fff;
+    font-size: 20px;
+    background-color: green;
+    box-shadow: -3px -3px 5px rgba(255, 255, 255, .5),
+          3px 3px 5px ;
+  }
+
+  /* --BUTTON THREE-- */
+  .button_three .switch3-holder {
+    display: flex;
+    width: 320px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, .7),
+          10px 10px 10px rgba(0, 0, 0, .2),
+          inset 8px 8px 15px rgba(255, 255, 255, .7),
+          inset 10px 10px 10px rgba(0, 0, 0, .2);
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    font-family: Battambang;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .button_three .switch3-label {
+    padding: 0 20px 0 10px
+  }
+  .button_three .switch3-label i {
+    margin-right: 5px;
+  }
+  .button_three .switch3-toggle {
+    height: 50px;
+  }
+  .button_three .switch3-toggle input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    z-index: -2;
+  }
+  .button_three .switch3-toggle input[type="checkbox"]+label {
+    position: relative;
+    display: inline-block;
+    width: 140px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 0;
+    cursor: pointer;
+    box-shadow: inset -8px -8px 15px rgba(255, 255, 255, .6),
+          inset 10px 10px 10px rgba(0, 0, 0, .25);
+  }
+  .button_three .switch3-toggle input[type="checkbox"]+label::before {
+    position: absolute;
+    content: 'OFF';
+    font-size: 13px;
+    text-align: center;
+    line-height: 25px;
+    top: 8px;
+    left: 8px;
+    width: 60px;
+    height: 28px;
+    padding-top: 7px;
+    border-radius: 20px;
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: -3px -3px 5px rgba(255, 255, 255, .5),
+          3px 3px 5px rgba(0, 0, 0, .25);
+    transition: .3s ease-in-out;
+  }
+  .button_three .switch3-toggle input[type="checkbox"]:checked+label::before {
+    left: 50%;
+    content: 'ON';
+    color: #fff;
+    font-size: 20px;
+    background-color: green;
+    box-shadow: -3px -3px 5px rgba(255, 255, 255, .5),
+          3px 3px 5px ;
+  }
+
+  /* --BUTTON FOURTH-- */
+  .button_fourth .switch4-holder {
+    display: flex;
+    width: 320px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, .7),
+          10px 10px 10px rgba(0, 0, 0, .2),
+          inset 8px 8px 15px rgba(255, 255, 255, .7),
+          inset 10px 10px 10px rgba(0, 0, 0, .2);
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    font-family: Battambang;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .button_fourth .switch4-label {
+    padding: 0 20px 0 10px
+  }
+  .button_fourth .switch4-label i {
+    margin-right: 5px;
+  }
+  .button_fourth .switch4-toggle {
+    height: 50px;
+  }
+  .button_fourth .switch4-toggle input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    z-index: -2;
+  }
+  .button_fourth .switch4-toggle input[type="checkbox"]+label {
+    position: relative;
+    display: inline-block;
+    width: 140px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 0;
+    cursor: pointer;
+    box-shadow: inset -8px -8px 15px rgba(255, 255, 255, .6),
+          inset 10px 10px 10px rgba(0, 0, 0, .25);
+  }
+  .button_fourth .switch4-toggle input[type="checkbox"]+label::before {
+    position: absolute;
+    content: 'OFF';
+    font-size: 13px;
+    text-align: center;
+    line-height: 25px;
+    top: 8px;
+    left: 8px;
+    width: 60px;
+    height: 28px;
+    padding-top: 7px;
+    border-radius: 20px;
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: -3px -3px 5px rgba(255, 255, 255, .5),
+          3px 3px 5px rgba(0, 0, 0, .25);
+    transition: .3s ease-in-out;
+  }
+  .button_fourth .switch4-toggle input[type="checkbox"]:checked+label::before {
+    left: 50%;
+    content: 'ON';
+    color: #fff;
+    font-size: 20px;
+    background-color: green;
+    box-shadow: -3px -3px 5px rgba(255, 255, 255, .5),
+          3px 3px 5px ;
+  }
+
+  /* --BUTTON FIFTH-- */
+  .button_fifth .switch5-holder {
+    display: flex;
+    width: 320px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, .7),
+          10px 10px 10px rgba(0, 0, 0, .2),
+          inset 8px 8px 15px rgba(255, 255, 255, .7),
+          inset 10px 10px 10px rgba(0, 0, 0, .2);
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    font-family: Battambang;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .button_fifth .switch5-label {
+    padding: 0 20px 0 10px
+  }
+  .button_fifth .switch5-label i {
+    margin-right: 5px;
+  }
+  .button_fifth .switch5-toggle {
+    height: 50px;
+  }
+  .button_fifth .switch5-toggle input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    z-index: -2;
+  }
+  .button_fifth .switch5-toggle input[type="checkbox"]+label {
+    position: relative;
+    display: inline-block;
+    width: 140px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 0;
+    cursor: pointer;
+    box-shadow: inset -8px -8px 15px rgba(255, 255, 255, .6),
+          inset 10px 10px 10px rgba(0, 0, 0, .25);
+  }
+  .button_fifth .switch5-toggle input[type="checkbox"]+label::before {
+    position: absolute;
+    content: 'OFF';
+    font-size: 13px;
+    text-align: center;
+    line-height: 25px;
+    top: 8px;
+    left: 8px;
+    width: 60px;
+    height: 28px;
+    padding-top: 7px;
+    border-radius: 20px;
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: -3px -3px 5px rgba(255, 255, 255, .5),
+          3px 3px 5px rgba(0, 0, 0, .25);
+    transition: .3s ease-in-out;
+  }
+  .button_fifth .switch5-toggle input[type="checkbox"]:checked+label::before {
+    left: 50%;
+    content: 'ON';
+    color: #fff;
+    font-size: 20px;
+    background-color: green;
+    box-shadow: -3px -3px 5px rgba(255, 255, 255, .5),
+          3px 3px 5px ;
+  }
+
+  /* --BUTTON SIX-- */
+  .button_six .switch6-holder {
+    display: flex;
+    width: 320px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, .7),
+          10px 10px 10px rgba(0, 0, 0, .2),
+          inset 8px 8px 15px rgba(255, 255, 255, .7),
+          inset 10px 10px 10px rgba(0, 0, 0, .2);
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    font-family: Battambang;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .button_six .switch6-label {
+    padding: 0 20px 0 10px
+  }
+  .button_six .switch6-label i {
+    margin-right: 5px;
+  }
+  .button_six .switch6-toggle {
+    height: 50px;
+  }
+  .button_six .switch6-toggle input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    z-index: -2;
+  }
+  .button_six .switch6-toggle input[type="checkbox"]+label {
+    position: relative;
+    display: inline-block;
+    width: 140px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 0;
+    cursor: pointer;
+    box-shadow: inset -8px -8px 15px rgba(255, 255, 255, .6),
+          inset 10px 10px 10px rgba(0, 0, 0, .25);
+  }
+  .button_six .switch6-toggle input[type="checkbox"]+label::before {
+    position: absolute;
+    content: 'OFF';
+    font-size: 13px;
+    text-align: center;
+    line-height: 25px;
+    top: 8px;
+    left: 8px;
+    width: 60px;
+    height: 28px;
+    padding-top: 7px;
+    border-radius: 20px;
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: -3px -3px 5px rgba(255, 255, 255, .5),
+          3px 3px 5px rgba(0, 0, 0, .25);
+    transition: .3s ease-in-out;
+  }
+  .button_six .switch6-toggle input[type="checkbox"]:checked+label::before {
+    left: 50%;
+    content: 'ON';
+    color: #fff;
+    font-size: 20px;
+    background-color: green;
+    box-shadow: -3px -3px 5px rgba(255, 255, 255, .5),
+          3px 3px 5px ;
+  }
+
+  /* --BUTTON FIFTH-- */
+  .button_seven .switch7-holder {
+    display: flex;
+    width: 320px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, .7),
+          10px 10px 10px rgba(0, 0, 0, .2),
+          inset 8px 8px 15px rgba(255, 255, 255, .7),
+          inset 10px 10px 10px rgba(0, 0, 0, .2);
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    font-family: Battambang;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .button_seven .switch7-label {
+    padding: 0 20px 0 10px
+  }
+  .button_seven .switch7-label i {
+    margin-right: 5px;
+  }
+  .button_seven .switch7-toggle {
+    height: 50px;
+  }
+  .button_seven .switch7-toggle input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    z-index: -2;
+  }
+  .button_seven .switch7-toggle input[type="checkbox"]+label {
+    position: relative;
+    display: inline-block;
+    width: 140px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 0;
+    cursor: pointer;
+    box-shadow: inset -8px -8px 15px rgba(255, 255, 255, .6),
+          inset 10px 10px 10px rgba(0, 0, 0, .25);
+  }
+  .button_seven .switch7-toggle input[type="checkbox"]+label::before {
+    position: absolute;
+    content: 'OFF';
+    font-size: 13px;
+    text-align: center;
+    line-height: 25px;
+    top: 8px;
+    left: 8px;
+    width: 60px;
+    height: 28px;
+    padding-top: 7px;
+    border-radius: 20px;
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: -3px -3px 5px rgba(255, 255, 255, .5),
+          3px 3px 5px rgba(0, 0, 0, .25);
+    transition: .3s ease-in-out;
+  }
+  .button_seven .switch7-toggle input[type="checkbox"]:checked+label::before {
+    left: 50%;
+    content: 'ON';
+    color: #fff;
+    font-size: 20px;
+    background-color: green;
+    box-shadow: -3px -3px 5px rgba(255, 255, 255, .5),
+          3px 3px 5px ;
+  }
